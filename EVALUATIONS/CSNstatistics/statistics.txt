@@ -1,0 +1,3 @@
+Average path amount is:  120.06800398349694
+Average path length is:  65.43697916107618
+Average target lenghth is:  7.753307725138711

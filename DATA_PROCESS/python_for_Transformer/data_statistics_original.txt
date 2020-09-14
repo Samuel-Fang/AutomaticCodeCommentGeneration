@@ -1,0 +1,5 @@
+code tokens statics: max length: 7434 average length: 111.0903069074419
+code subtokens statics: max length: 8790 average length: 124.69026641833347
+code tokens statics: max length: 54 average length: 8.539954652198558
+
+

@@ -1,0 +1,19 @@
+code tokens statics: max length: 2062 average length: 96.82850584582866
+code subtokens statics: max length: 2069 average length: 108.58135444877469
+code tokens statics: max length: 30 average length: 8.529344738754212
+
+code tokens statics: max length: 2062 average length: 90.51672831759033
+code subtokens statics: max length: 2069 average length: 102.08417002444018
+code tokens statics: max length: 30 average length: 8.529344738754212
+
+code tokens statics: max length: 2062 average length: 90.51672831759033
+code subtokens statics: max length: 2069 average length: 102.08417002444018
+code tokens statics: max length: 30 average length: 8.529344738754212
+
+code tokens statics: max length: 2062 average length: 90.51672831759033
+code subtokens statics: max length: 2069 average length: 102.08417002444018
+javadoc statics: max length: 30 average length: 8.529344738754212
+
+code tokens statics: max length: 2062 average length: 90.51672831759033
+code subtokens statics: max length: 2069 average length: 102.08417002444018
+javadoc statics: max length: 30 average length: 8.529344738754212

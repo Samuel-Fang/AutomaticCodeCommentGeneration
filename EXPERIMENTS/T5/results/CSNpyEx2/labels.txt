@@ -1,0 +1,1000 @@
+Extracts video ID from URL.
+Downloads Dailymotion videos by URL.
+Extracts video ID from live. qq. com.
+Format text with color or other effects into ANSI escaped string.
+Print a log message to standard error.
+Print an error log message.
+What a Terrible Failure!
+Detect operating system.
+Extracts video ID from URL.
+Converts a string to a valid filename.
+Downloads CBS videos by URL.
+Parses host name and port number from a string.
+Returns a snowflake. connection object
+Loads a tab - delimited file into a database table
+Dumps a database table into a tab - delimited file
+Uploads the file to Google cloud storage
+Loads a tab - delimited file into a database table
+Returns version of the Cloud SQL Proxy.
+Clean up database hook after it was used.
+Reserve free TCP port to be used by Cloud SQL Proxy
+Extract error code from ftp exception
+Integrate plugins to the context
+Remove any existing DAG runs for the perf test DAGs.
+Remove any existing task instances for the perf test DAGs.
+Toggle the pause state of the DAGs in the test.
+Override the scheduler heartbeat to determine when the test is complete
+Return the task object identified by the given dag_id and task_id.
+Establish a connection to druid broker.
+Contextmanager that will create and teardown a session.
+Clear out the database
+Upload a file to Azure Blob Storage.
+Returns a connection object
+Parses some DatabaseError to provide a better error message
+Get a set of records from Presto
+Get a pandas dataframe from a sql query.
+Execute the statement against Presto. Can be used to create views.
+Return a cosmos db client.
+Checks if a collection exists in CosmosDB.
+Creates a new collection in the CosmosDB database.
+Checks if a database exists in CosmosDB.
+Creates a new database in CosmosDB.
+Deletes an existing database in CosmosDB.
+Deletes an existing collection in the CosmosDB database.
+Insert a list of new documents into an existing collection in the CosmosDB database.
+Delete an existing document out of a collection in the CosmosDB database.
+Get a document from an existing collection in the CosmosDB database.
+Get a list of documents from an existing collection in the CosmosDB database via SQL query.
+Return python code of a given dag_id.
+Returns verticaql connection object
+Ensure all logging output has been flushed
+Launch DagFileProcessorManager processor and start DAG parsing loop in manager.
+Helper method to clean up DAG file processors to avoid leaving orphan processes.
+Parse DAG files repeatedly in a standalone loop.
+Refresh file paths from dag dir if we haven t done it for too long.
+Occasionally print out stats about how fast the files are getting processed
+Sleeps until all the processors are done.
+Returns the number of slots open at the moment
+Runs command and returns stdout
+Return the task object identified by the given dag_id and task_id.
+Properly close pooled database connections
+Ensures that certain subfolders of AIRFLOW_HOME are on the classpath
+Transforms a SQLAlchemy model instance into a dictionary
+Yield successive chunks of a given size from a list of items
+Return the task object identified by the given dag_id and task_id.
+Integrate plugins to the context
+Returns a Google Cloud Dataproc service object.
+Awaits for Google Cloud Dataproc Operation to complete.
+Returns a Google MLEngine service object.
+Sets a version to be the default. Blocks until finished.
+Lists all available versions of a model. Blocks until finished.
+Deletes the given version of a model. Blocks until finished.
+Create a Model. Blocks until finished.
+Gets a Model. Blocks until finished.
+Write batch items to dynamodb table with provisioned throughout capacity.
+Integrate plugins to the context.
+Creates a new instance of the configured executor if none exists and returns it
+Handles error callbacks when using Segment with segment_debug_mode set to True
+Returns a mssql connection object
+Call the SparkSubmitHook to run the provided spark job
+Delete all DB records related to the specified Dag.
+Return python code of a given dag_id.
+Returns a JSON with a task s public instance variables.
+Get all pools.
+Create a pool.
+Returns the task instances for this dag run
+The previous DagRun if there is one
+The previous SCHEDULED DagRun if there is one
+This function decides whether or not to Trigger the remote DAG
+Gets the DAG out of the dictionary and refreshes it if expired
+Prints a report around DagBag loading stats
+Call the SparkSubmitHook to run the provided spark job
+Integrate plugins to the context
+Forces the task instance s state to FAILED in the database.
+Clears all XCom data from the database for the task instance
+Returns a tuple that identifies the task instance uniquely
+Sets the log context.
+Close and upload local log file to remote storage Wasb.
+Queries cassandra and returns a cursor to the results.
+Call the SparkSqlHook to run the provided sql query
+Return a AzureDLFileSystem object.
+Run Presto Query on Athena
+Cancel the submitted athena query
+Uncompress gz and bz2 files
+Sign into Salesforce only if we are not already signed in.
+Write batch records to Kinesis Firehose
+Send email using backend specified in EMAIL_BACKEND.
+Returns a FTP connection object
+Call the DiscordWebhookHook to post message
+Return the FileService object.
+Returns a Google Cloud Storage service object.
+Execute the python dataflow job.
+Returns a Hive thrift client.
+Get a metastore table object
+Returns a Hive connection object.
+Get Dingding endpoint for sending message.
+Helper method that binds parameters to a SQL query.
+Helper method that escapes parameters to a SQL query.
+Returns a BigQuery PEP 249 connection object.
+Returns a BigQuery service object.
+Cancel all started queries that have not yet completed
+Queries Postgres and returns a cursor to the results.
+Integrate plugins to the context
+A callback that should be called when this is done running.
+Parse options and process commands
+generate HTML header content
+generate javascript code for the chart
+Create X - axis
+Create Y - axis
+Returns a sqlite connection object
+Decorator to log user actions
+Decorator to make a view compressed
+returns a json response from a json serializable python object
+Used by cache to get a unique key per URL
+Get Opsgenie api_key for creating alert
+Call the OpsgenieAlertHook to post message
+Returns an SFTP connection object
+Executed by task_instance at runtime
+Get pool by a given name.
+Create a pool with a given parameters.
+Delete pool by a given name.
+Execute the Discord webhook call
+Close and upload local log file to remote storage S3.
+Defines any necessary environment variables for the pod executor
+Defines any necessary secrets for the pod executor
+Defines the security context
+Launch the process and start processing the DAG.
+Helper method to clean up processor_agent to avoid leaving orphan processes.
+Self destruct task if state has been moved away from running externally
+Returns a cassandra Session object
+Queries mysql and returns a cursor to the results.
+Return a dict of column name and column type based on self. schema if not None.
+Returns the extra property by deserializing json.
+Convert an array of time durations in seconds to the specified time unit.
+Returns a set of tuples with the perm name and view menu name
+Whether the user has this role name
+Whether the user has this perm
+FAB leaves faulty permissions that need to be cleaned up
+Create perm - vm if not exist and insert into FAB security model for all - dags.
+Checks for existence of the partition in the AWS Glue Catalog table
+Returns a snakebite HDFSClient object.
+Establish a connection to pinot broker through pinot dbqpi.
+Convert native python datetime. date object to a format supported by the API
+Convert native python datetime. time object to a format supported by the API
+Returns a Redis connection.
+Returns a connection object
+Sets the autocommit flag on the connection
+Default filters for model
+Default filters for model
+Call the SlackWebhookHook to post the provided Slack message
+Return a Tensor containing the patches
+Computes the accuracy over the k top predictions for the specified values of k
+This function disables printing when not in master process
+Download and extract the tarball and download each individual photo.
+Download the MNIST data if it doesn t exist in processed_folder already.
+Returns available themes list.
+remove first and last lines to get only json
+Convenience function to efficiently construct a MultivariateNormalDiag.
+Eight - schools joint log - prob.
+RandomVariable constructor with a dummy name argument.
+Factory function to make random variable given distribution class.
+Returns max or mask if max is not finite.
+OneHotCategorical helper computing probs cdf etc over its support.
+Return a convert - to - tensor func given a name config callable etc.
+Create the distribution instance from a params vector.
+The number of params needed to create a single distribution.
+Create the distribution instance from a params vector.
+Create the distribution instance from a params vector.
+The number of params needed to create a single distribution.
+Create the distribution instance from a params vector.
+Create the distribution instance from a params vector.
+The number of params needed to create a single distribution.
+Create the distribution instance from a params vector.
+Create the distribution instance from a params vector.
+The number of params needed to create a single distribution.
+Create the distribution instance from a params vector.
+The number of params needed to create a single distribution.
+Validate map_values if validate_args == True.
+Convenience to convert to Tensor or leave as None.
+Computes the default value for reinterpreted_batch_ndim __init__ arg.
+Get a list of num_components batchwise probabilities.
+Bayesian logistic regression which returns labels given features.
+Builds the Covertype data set.
+Checks the validity of the concentration parameter.
+Checks the validity of a sample.
+Rectify possibly negatively axis. Prefer return Python list.
+A version of squeeze that works with dynamic axis.
+Standardize input x to a unit normal.
+Reconstruct input x from a its normalized version.
+Build the transition matrix for a semi - local linear trend model.
+Build the transition noise model for a semi - local linear trend model.
+Returns the machine epsilon for the supplied dtype.
+Shrinks the input step size until the value and grad become finite.
+Performs bisection and updates the interval.
+Wrapper for tf. Print which supports lists and namedtuples for printing.
+Helper which checks validity of loc and scale init args.
+Helper which interpolates between two locs.
+Helper which interpolates between two scales.
+Concatenates input vectors statically if possible.
+Multiply tensor of vectors by matrices assuming values stored are logs.
+Multiply tensor of matrices by vectors assuming values stored are logs.
+Multiply tensor of vectors by matrices.
+Tabulate log probabilities from a batch of distributions.
+Compute marginal pdf for each individual observable.
+Chooses a random direction in the event space.
+Helper which computes fn_result if needed.
+Processes input args to meet list - like assumptions.
+Built a transformed - normal variational dist over a parameter s support.
+Run an optimizer within the graph to minimize a loss function.
+Get broadcast batch shape from distributions statically if possible.
+high - low.
+Factory for making summary statistics eg mean mode stddev.
+Uses arg names to resolve distribution names.
+Returns the distribution s required args.
+Creates dist_fn dist_fn_wrapped dist_fn_args.
+Shannon entropy in nats.
+Processes input args to meet list - like assumptions.
+Convert a vector size to a matrix size.
+Numpy implementation of tf. argsort.
+Numpy implementation of tf. sort.
+Implements ndtr core logic.
+Calculates the asymptotic series used in log_ndtr.
+Joint log probability function.
+Convenience function analogous to tf. squared_difference.
+Split a covariance matrix into block - diagonal marginals of given sizes.
+Human - readable representation of a tensor s numpy value.
+Sample shape of random variable as a TensorShape.
+Get tensor that the random variable corresponds to.
+Value as NumPy array only available for TF Eager.
+Returns a batch of points chosen uniformly from the unit hypersphere.
+Returns explict dtype from args_list if exists else preferred_dtype.
+Factory for implementing summary statistics eg mean stddev mode.
+Helper to broadcast a tensor using a list of target tensors.
+Pdf evaluated at the peak.
+potential_scale_reduction for one single state Tensor.
+Get number of elements of x in axis as type x. dtype.
+Broadcast a listable secondary_arg to that of states.
+To support weak referencing removes cache key from the cache value.
+Helper to merge which handles merging one value.
+Converts nested tuple list or dict to nested tuple.
+Network block for VGG.
+Wraps value and gradients function to assist with None gradients.
+If two given states and momentum do not exhibit a U - turn pattern.
+Runs one step of leapfrog integration.
+Log - joint probability given a state s log - probability and momentum.
+Returns samples from a Bernoulli distribution.
+Returns True if args should be expanded as * args.
+Eagerly converts struct to Tensor recursing upon failure.
+Returns Tensor attributes related to shape and Python builtins.
+Helper utility to make a field of images.
+Downloads a file.
+Builds fake MNIST - style data for unit testing.
+Builds an Iterator switching between train and heldout data.
+Helper to validate block sizes.
+Verifies that parts don t broadcast.
+Helper which computes volatility_fn results and grads if needed.
+Helper to broadcast volatility_parts to the shape of state_parts.
+Helper to __init__ which makes or raises assertions.
+Computes graph and static sample_shape.
+Calls fn appropriately reshaping its input x and output.
+Calls fn and appropriately reshapes its output.
+Check counts for proper shape values then return tensor version.
+Executes model creating both samples and distributions.
+20 newsgroups as a tf. data. Dataset.
+Builds fake data for unit testing.
+Returns Hugo Larochelle s binary static MNIST tf. data. Dataset.
+Returns a np. dtype based on this dtype.
+Returns a non - reference dtype based on this dtype.
+Returns whether this is a boolean data type.
+Returns whether this is a complex floating point type.
+Returns the maximum representable value in this data type.
+Returns the string name for this dtype.
+Returns the number of bytes to represent this dtype.
+Creates the condition function pair for a reflection to be accepted.
+Creates the condition function pair for an expansion.
+Creates the condition function pair for an outside contraction.
+Shrinks the simplex around the best vertex.
+Replaces an element at supplied index.
+Evaluates the objective function at the specified initial simplex.
+Constructs a standard axes aligned simplex.
+Build an Iterator switching between train and heldout data.
+Build fake MNIST - style data for unit testing.
+Returns initializer configuration as a JSON - serializable dict.
+Instantiates an initializer from a configuration dictionary.
+Numpy matmul wrapper.
+Helper to compute stddev covariance and variance.
+Convenience function which chooses the condition based on the predicate.
+Finish computation of log_prob on one element of the inverse image.
+Finish computation of prob on one element of the inverse image.
+Helper which rolls left event_dims left or right event_dims right.
+Applies a single slicing step to dist returning a new instance.
+Applies a sequence of slice or copy - with - overrides operations to dist.
+Returns number of cols in a given Tensor.
+Wraps original_fn preferring to call static_fn when inputs are static.
+Wraps new_fn with the doc of original_fn.
+Helper function for statically evaluating predicates in cond.
+Computes rank given a Tensor s shape.
+Helper function to standardize op scope.
+Assert x is a non - negative tensor and optionally of integers.
+Helper returning True if dtype is known to be unsigned.
+Helper returning True if dtype is known to be signed.
+Helper returning the largest integer exactly representable by dtype.
+Helper returning the smallest integer exactly representable by dtype.
+Helper returning True if dtype. is_integer or is bool.
+Generate a new seed from the given seed and salt.
+Returns the size of a specific dimension.
+Checks that rightmost_transposed_ndims is valid.
+Checks that perm is valid.
+Helper for _forward and _inverse_event_shape.
+Check that source and target shape match statically if possible.
+Propagate a filtered distribution through a transition model.
+Propagate a mean through linear Gaussian transformation.
+Propagate covariance through linear Gaussian transformation.
+Computes the log - normalizer of the distribution.
+Check counts for proper shape values then return tensor version.
+The mode of the von Mises - Fisher distribution is the mean direction.
+Applies a Householder rotation to samples.
+Specialized inversion sampler for 3D.
+Removes dict keys which have have self as value.
+Recursively replace dict s with _PrettyDict.
+Check args and return samples.
+Helper which returns True if input is collections. namedtuple - like.
+Helper which makes a str name ; useful for tf. compat. v1. name_scope.
+Helper which expand_dims is_accepted then applies tf. where.
+Calls fn and computes the gradient of the result wrt args_list.
+Check that a shape Tensor is int - type and otherwise sane.
+Checks the validity of a sample.
+Condition to stop when any batch member converges or all have failed.
+Updates the state advancing its position by a given position_delta.
+Checks if the algorithm satisfies the convergence criteria.
+field_name from kernel_results or kernel_results. accepted_results.
+Helper to _covariance and _variance which computes a shared scale.
+Checks the validity of the concentration parameter.
+Check counts for proper shape values then return tensor version.
+Makes a function which applies a list of Bijectors log_det_jacobian s.
+Makes a function which applies a list of Bijectors forward s.
+Makes a function which applies a list of Bijectors inverse s.
+Like tf. where but works on namedtuples.
+Helper function for secant - square step.
+Actual implementation of bisect given initial_args in a _BracketResult.
+Helper which processes input args to meet list - like assumptions.
+Creates initial previous_kernel_results using a supplied state.
+Network block for ResNet.
+A multi - layered topic model over a documents - by - terms matrix.
+Learnable Deterministic distribution over positive reals.
+Learnable Gamma via concentration and scale parameterization.
+Get the KL function registered for classes a and b.
+Returns an image tensor.
+Downloads the sprites data and returns the saved filepath.
+Creates a character sprite from a set of attribute sprites.
+Creates a random sequence.
+Build fake CIFAR10 - style data for unit testing.
+Use top_k to sort a Tensor along the last dimension.
+Assert that Tensor x has expected number of dimensions.
+Like batch_gather but broadcasts to the left of axis.
+Broadcasts the event or distribution parameters.
+Broadcasts the event or samples.
+Update the BGFS state by computing the next inverse hessian estimate.
+Create LBfgsOptimizerResults with initial state of search procedure.
+Computes the von Mises CDF and its derivative via Normal approximation.
+Processes initial args.
+Finds the population member with the lowest value.
+Checks whether the convergence criteria have been met.
+Gets a Tensor of type dtype 0 if tol is None validation optional.
+Build an iterator over training batches.
+Inverse function of _hat_integral.
+Returns list of assertions related to lu_reconstruct assumptions.
+Returns list of assertions related to lu_solve assumptions.
+Checks that input is a float matrix.
+Generate the slices for building an autoregressive mask.
+Generate the mask for building an autoregressive dense layer.
+Returns a degree vectors for the input.
+Returns a list of binary mask matrices enforcing autoregressivity.
+Returns a masked version of the given initializer.
+See tfkl. Layer. call.
+Build a zero - dimensional MVNDiag object.
+Build an observation_noise_fn that observes a Tensor timeseries.
+Build regression weights from model parameters.
+Computes the number of edges on longest path from node to root.
+Creates tuple of str tuple - str pairs representing resolved & sorted DAG.
+Creates lists of callables suitable for JDSeq.
+Creates dist_fn dist_fn_wrapped dist_fn_args dist_fn_name.
+Build utility method to compute whether the season is changing.
+Build a function computing transitions for a seasonal effect model.
+Build the transition noise model for a SeasonalStateSpaceModel.
+Build transition noise distribution for a ConstrainedSeasonalSSM.
+Do an optimization.
+When to end the optimization based on input option.
+Set validation and checkpoint for distributed optimizer.
+Return the broadcasted value
+Call API in PythonBigDL
+Convert Python object into Java
+get label as ndarray from ImageFeature
+Read parquet file as DistributedImageFrame
+write ImageFrame as parquet file
+get image from ImageFrame
+get image list from ImageFrame
+get label rdd from ImageFrame
+get prediction rdd from ImageFrame
+Save a Keras model definition to JSON with given path
+Define a convnet model in Keras 1. 2. 2
+Set this layer in the training mode or in predition mode if is_training = False
+Define a recurrent convolutional model in Keras 1. 2. 2
+Get and return the jar path for bigdl if exists.
+Check if spark version is below 2. 2
+Computes weighted sum of inputs conditioned on state
+get summary ops for the magnitude of gradient updates
+Read data by dataset_reader from specified config.
+Checks existence of the model file loads the model if the file exists
+Builds the network using Keras.
+DeepPavlov console configuration utility.
+Constructs function encapsulated in the graph.
+Constructs function encapsulated in the graph and the session.
+Prettifies the dictionary of metrics.
+Load model parameters from self. load_path
+Save model parameters to self. save_path
+Print number of * trainable * parameters in the network
+Finds all dictionary words in d - window from word
+sets 1. 0 cost for every replacement insertion deletion and transposition
+Initiates self - destruct timer.
+Start interaction with the model described in corresponding configuration file.
+Make a prediction with the component described in corresponding configuration file.
+Returns a function object with the name given in string.
+Decorator for metric registration.
+Returns a metric callable with a corresponding name.
+parses requirements from requirements. txt
+Exports a TF - Hub module
+Parse parameters and run ms bot framework
+r Return True if at least one GPU is available
+Recursively apply config s variables values to its property
+Read config s variables and apply their values to all its properties
+Convert relative paths to absolute with resolving user directory.
+Thread run method implementation.
+Conducts cleanup of periodical certificates with expired validation.
+Returns a class object with the name given as a string.
+Returns a registered class object with the name given in the string.
+List all jobs performed by the cluster.
+Return the list of all known timezones.
+Return the summary for a single column for a single Frame in the h2o cluster.
+Delete a frame on the h2o cluster given its key.
+Score a model on the h2o cluster on the given Frame and return only the model metrics.
+Delete a model on the h2o cluster given its key.
+terminate all the instances given by its ids
+stop all the instances given by its ids
+Start all the instances given by its ids
+Reboot all the instances given by its ids
+Wait for ssh service to appear on given hosts
+Wait until job s completion.
+Helper function to handle caught signals.
+Clear the output directory.
+Return an ip to use to talk to this cluster.
+Return a port to use to talk to this cluster.
+Determines vec_size for a pre - trained model after basic model verification.
+Return string representing the name of this type.
+Return True if the variable matches this type and False otherwise.
+Return string representing the name of this type.
+Return True if the variable does not match any of the types and False otherwise.
+Return string representing the name of this type.
+Return True if the variable matches this type and False otherwise.
+Return True if the variable matches this type and False otherwise.
+Return string representing the name of this type.
+Return True if the variable matches the specified type.
+Return string representing the name of this type.
+Return True if the variable matches the specified type.
+Return True if the variable matches this type and False otherwise.
+Check whether the provided value is a valid enum constant.
+Retrieve the config as a dictionary of key - value pairs.
+Return possible locations for the. h2oconfig file one at a time.
+Compute t0 x0 v0 ve.
+Print the rendered string to the stdout.
+Render the widget.
+Initial rendering stage done in order to compute widths of all widgets.
+Find current STDOUT s width in characters.
+Render the widget.
+Inform the widget about the encoding of the underlying character stream.
+Render the widget.
+Reload frame information from the backend H2O server.
+Compactly display the internal structure of an H2OFrame.
+Parse code from a string of text.
+Parse the provided file and return Code object.
+Move the token by drow rows and dcol columns.
+Convert the parsed representation back into the source code.
+The centers for the KMeans model.
+The standardized centers for the kmeans model.
+Imports a data file within the h2o_data folder.
+Check that the provided frame id is valid in Rapids language.
+Return True if slice s in normalized form.
+The decorator to mark deprecated functions.
+Wait until grid finishes computing.
+Print a detailed summary of the explored models.
+Print models sorted by metric.
+Parse file specified by constructor.
+Log the beginning of an API request.
+Log response from an API request.
+Helper function to print connection status messages when in verbose mode.
+Return enum constant s converted to a canonical snake - case.
+Dictionary of the default parameters of the model.
+Dictionary of actual parameters of the model.
+Print innards of model without regards to type.
+GBM model demo.
+Deep Learning model demo.
+GLM model demo.
+Convert to a python data frame.
+Print the contents of this table.
+Equivalent of csv. DictWriter but allows delimiter to be a unicode string on Py2.
+Convert directory path to uri
+Parse module defined in * uri *
+Parse lines of text for functions and classes
+Convert this confusion matrix into a 2x2 plain list of values.
+Find all python files in the given directory and all subfolders.
+Executed when script is run as - is.
+Generate C# declaration file for a schema.
+Returns True if a deep water model can be built or False otherwise.
+Return endpoints grouped by the class which handles them.
+Set site domain and name.
+Adds the default_data to data and dumps it to a json.
+Comments last user_id s medias
+Returns login and password stored in secret. txt.
+Likes last user_id s medias
+Likes last medias from hashtag
+Filter bot from real users.
+Return the target uri for the request.
+Create connection for the request.
+Sends request to cloud service server and return the response.
+Returns the URI for the authorization server if present otherwise empty string.
+Extracts the host authority from the given URI.
+Sets up the timeout for the request.
+Sets the request header.
+Gets back all response headers.
+Sends the request body.
+Gets status of response.
+Gets status text of response.
+Gets response body as a SAFEARRAY and converts the SAFEARRAY to str.
+Sets client certificate for the request.
+Sets up the host and the port for the HTTP CONNECT Tunnelling.
+Sets up the host and the port for the HTTP CONNECT Tunnelling.
+Connects to host and sends the request.
+Sends the headers of request.
+Sends request body.
+Gets the response and generates the _Response object
+simplified an id to be more friendly for us people
+converts a Python name into a serializable name
+get properties from entry xml
+parse the xml and fill all the data into a class of return_type
+Converts a child of the current dom element to the specified type.
+Will extract from __code__ the API version. Should be use if you use this is an operation group with no constant api_version.
+This is a temporary patch pending a fix in uAMQP.
+Extracts request id from response header.
+Add additional headers for management.
+Get list of available service bus regions.
+List the service bus namespaces defined on the account.
+Create a virtual environment in a directory.
+List the SQL databases defined on the specified server name
+Verifies that the challenge is a Bearer challenge and returns the key = value pairs.
+Enumerates the queues in the service namespace.
+Sends a new message event to an Event Hub.
+Add additional headers for Service Bus.
+return the signed string with token.
+Check if token expires or not.
+add addtional headers to request for message request.
+return the current message as expected by batch body format
+Simple error handler for azure.
+Reset auth_attempted on redirects.
+Define a new default profile.
+Will build the actual config for Jinja2 based on SDK config.
+get properties from element tree element
+parse the xml and fill all the data into a class of return_type
+Converts a child of the current dom element to the specified type.
+Returns the width of the string it would be when displayed.
+Drops Characters by unicode not by bytes.
+Clears out the previous line and prints a new one.
+Formats the file size into a human readable format.
+Formats elapsed seconds into a human readable format.
+Creates a status line with appropriate size.
+Shuts down the thread.
+Shuts down the thread.
+Adds a segment to the download pool and write queue.
+Puts a value into a queue but aborts if this thread is closed.
+Remove the PKCS#7 padding
+Changes google. com to www. google. com
+Parses JSON from a response.
+Parses XML from a response.
+Attempt a login to LiveEdu. tv
+Prepares a filename to be passed to the player.
+Open stream create output and finally write the stream to output.
+Fetches streams using correct parameters.
+Returns the real stream name of a synonym.
+Outputs a list of all plugins Streamlink has loaded.
+Attempts to load plugins from a list of directories.
+Loads any additional plugins.
+Sets Streamlink plugin options.
+Sets Streamlink plugin options.
+Show current installed versions
+Try to find a stream_id
+Fallback if no stream_id was found before
+Checks if the string value starts with another string.
+Checks if the string value ends with another string.
+Checks if the string value contains another string.
+Parses an URL and validates its attributes.
+Find a XML element via xpath.
+Find a list of XML elements via xpath.
+Returns the stream_id contained in the HTML.
+login and update cached cookies
+Show character in readable format
+Show string or char.
+Read n bytes from the stream on a byte boundary.
+Show all words of the code in a nice format.
+Read symbol from stream. Returns symbol length.
+Override if you don t define value0 and extraTable
+Give count and value.
+Make a nice mnemonic
+Perform the proper action
+If true handle uncompressed data
+Read block type switch descriptor for given kind of blockType.
+In place inverse move to front transform.
+Read prefix code array
+Implementation of Dataset. to_arrow_table
+Adds method f to the Dataset class
+Return a graphviz. Digraph object with a graph of the expression
+Create a vaex DataFrame from an Astropy Table.
+Creates a zeldovich DataFrame.
+Creates a virtual column which is the equivalent of numpy. arange but uses 0 memory
+Add a dataset and add it to the UI
+basic support for evaluate at server at least to run some unittest do not expect this to work from strings
+Find all columns that this selection depends on for df ds
+Helper function for returning tasks results result when immediate is True otherwise the task itself which is a promise
+Sort table by given column number.
+Used for unittesting to make sure the plots are all done
+Open document by the default handler of the OS could be a url opened by a browser a text file by an editor etc
+Flexible writing where f can be a filename or f object if filename closed after writing
+Combines all masks from a list of arrays and logically ors them into a single mask
+Evaluates expression and drop the result usefull for benchmarking since vaex is usually lazy
+Use at own risk requires ipyvolume
+Return the numpy dtype for the given expression if not a column the first row will be evaluated to get the dtype.
+Removes the file with the virtual column etc it does not change the current virtual columns etc.
+Evaluates the variable given by name.
+Internal use ignores the filter
+Add an in memory array as a column.
+Renames a column not this is only the in memory name this will not be reflected on disk
+Deletes a virtual column from a DataFrame.
+Deletes a variable from a DataFrame.
+Return a shallow copy a DataFrame with the last n rows.
+Display the first and last n elements of a DataFrame.
+Set the current row and emit the signal signal_pick.
+Undo selection for the name.
+Redo selection for the name.
+Can selection name be redone?
+select_lasso and select almost share the same code
+Finds a non - colliding name by optional postfixing
+Returns a list of string which are the virtual columns that are not used in any other virtual column.
+Return a graphviz. Digraph object with a graph of all virtual columns
+Mark column as categorical with given labels assuming zero indexing
+Join the columns of the other DataFrame to this one assuming the ordering is the same
+Adds method f to the DataFrame class
+Convert into numpy recordarray
+Return the version information for all librosa dependencies.
+Load audio estimate tuning apply pitch correction and save.
+Generate the frequency domain constant - Q filter basis.
+Helper function to trim and stack a collection of CQT responses
+Compute the filter response with a target STFT hop.
+Compute the number of early downsampling operations
+Perform early downsampling on an audio signal if it applies.
+Check if axes is an instance of an axis object. If not use gca.
+Set the axis scaling
+Get the frequencies for FFT bins
+Get the frequencies for Mel bins
+Get CQT bin frequencies
+Get chroma bin numbers
+Get time coordinates from frames
+Helper function for window sum - square calculation.
+Find the best Jaccard match from query to candidates
+Helper function to get files in a single directory
+Argparse function to get the program parameters
+Construct the local score for an onset envlope and given period
+Core dynamic program for beat tracking
+Get the last beat from the cumulative score array
+3x3 convolution with padding
+Average latest n values or all values
+Scatters tensor across multiple GPUs.
+Start the timer.
+Scatter with support for kwargs dictionary
+Read and decodes JSON response.
+Read response payload and decode.
+Process coroutine callback function
+For crawling multiple urls
+Init a Request class for crawling html
+Actually start crawling.
+Return distribution full name with - replaced with _
+Return archive name without extension
+Add additional requirements from setup. cfg to file metadata_path
+Sets the telemetry client for logging events.
+Call the get or create methods.
+Give the waterfall step a unique name
+Add classical control on register classical and value val.
+Print an if statement if needed.
+Apply U to q.
+Return a Numpy. array for the U3 gate.
+Function used to fit the exponential decay.
+Function used to fit the decay cosine.
+Trim a PIL image and remove white space.
+Get the list of qubits drawing this gate would cover
+Return True if completely - positive trace - preserving.
+Return the conjugate of the QuantumChannel.
+Return the transpose of the QuantumChannel.
+Return the correspond floating point number.
+Return the correspond symbolic number.
+Process a custom unitary node.
+Process a CNOT gate node.
+Process a measurement node.
+Process an if node.
+Return the corresponding OPENQASM string.
+Print with indent.
+Validate the internal representation of the instance.
+Add validation after instantiation.
+n - qubit QFT on q in circ.
+Deprecated in 0. 8 +
+Deprecated in 0. 8 +
+Apply u3 to q.
+Customize check_type for handling containers.
+Check that j is a valid index into self.
+Print with indent.
+Test if an array is a square matrix.
+Test if an array is a diagonal matrix
+Test if an array is a symmetrix matrix
+Test if an array is a Hermitian matrix
+Test if a matrix is positive semidefinite
+Test if an array is an identity matrix.
+Test if an array is a unitary matrix.
+Return a new circuit that has been optimized.
+Transform a QuantumChannel to the Choi representation.
+Transform a QuantumChannel to the SuperOp representation.
+Transform a QuantumChannel to the Kraus representation.
+Transform a QuantumChannel to the Chi representation.
+Transform a QuantumChannel to the PTM representation.
+Transform a QuantumChannel to the Stinespring representation.
+Transform a QuantumChannel to the Operator representation.
+Transform Operator representation to other representation.
+Transform Stinespring representation to Operator representation.
+Transform SuperOp representation to Choi representation.
+Transform Choi to SuperOp representation.
+Transform Kraus representation to Choi representation.
+Transform Choi representation to Kraus representation.
+Transform Stinespring representation to Kraus representation.
+Transform Stinespring representation to Choi representation.
+Transform Kraus representation to Stinespring representation.
+Transform Kraus representation to SuperOp representation.
+Transform Chi representation to a Choi representation.
+Transform Choi representation to the Chi representation.
+Reravel two bipartite matrices.
+Change of basis of bipartite matrix represenation.
+Return true if dims correspond to an n - qubit channel.
+Set visible property of ticklines and ticklabels of an axis to False
+Resets Bloch sphere data sets to empty.
+Render the Bloch sphere and its data sets in on given figure and axes.
+front half of sphere
+Display Bloch sphere and corresponding data sets.
+Deprecated after 0. 8
+Constructs the top line of the element
+Constructs the middle line of the element
+Constructs the bottom line of the element
+Returns the length of the element including the box around.
+Creates the label for a box.
+Return the correspond math mode latex string.
+Return the correspond symbolic number.
+Return the correspond floating point number.
+DEPRECATED after 0. 8
+Raise exception if list of qubits contains duplicates.
+Raise exception if a qarg is not in this circuit or bad format.
+Raise exception if clbit is not in this circuit or bad format.
+Raise exception if the circuits are defined on incompatible registers
+Return OpenQASM string.
+Assigns a parameter value to matching instructions in - place.
+Count the mapped two - qubit gates less the number of added SWAPs.
+Return op implementing a virtual gate on given layout.
+Generate list of ops to implement a SWAP gate along a coupling edge.
+Returns a sorted list of physical_qubits
+Apply cu1 from ctl to tgt with angle theta.
+Invert all instructions.
+Add controls to all instructions.
+Add classical control register to all instructions.
+Apply initialize to circuit.
+Checks if value has the format of a virtual qubit
+Returns a copy of a Layout instance.
+Apply Toffoli to from ctl1 and ctl2 to tgt.
+Apply u2 to q.
+Return a Numpy. array for the U3 gate.
+Return True if completely - positive trace - preserving.
+Return the conjugate of the QuantumChannel.
+Return the transpose of the QuantumChannel.
+Convert to Operator object.
+Convert to Pauli circuit instruction.
+Validate an initial statevector
+Set the backend options for all experiments in a qobj
+Set the initial statevector for simulation
+Return the current statevector in JSON Result spec format
+Semantic validations of the qobj which cannot be done via schemas.
+Validate an initial unitary matrix
+Set the backend options for all experiments in a qobj
+Set the initial unitary for simulation
+Return the current unitary in JSON Result spec format
+Determine if obj is a bit
+Return a Numpy. array for the U3 gate.
+Return the correspond floating point number.
+Apply RZZ to circuit.
+Apply Fredkin to circuit.
+Select best remaining CNOT in the hardware for the next program edge.
+Select the best remaining hardware qubit for the next program qubit.
+Invert this gate.
+Add controls to this gate.
+Add classical control register.
+Return True if operator is a unitary matrix.
+Return the conjugate of the operator.
+Return the transpose of the operator.
+Return the tensor shape of the matrix operator
+Format input state so it is statevector or density matrix
+Convert a QuantumCircuit or Instruction to an Operator.
+Update the current Operator by apply an instruction.
+Return the correspond floating point number.
+Return the correspond symbolic number.
+Separate a bitstring according to the registers defined in the result header.
+Return the index of a string of 0s and 1s.
+Return the index of a string of 0s and 1s.
+Returns the Instruction object corresponding to the op for the node else None
+Return a new circuit that has been optimized.
+Print the node data with indent.
+Remove all operation nodes with the given name.
+Add all wires in a quantum register.
+Add all wires in a classical register.
+Add dag at the end of self using edge_map.
+Get the set of op nodes with the given name.
+Get list of 2 - qubit gates. Ignore snapshot barriers and the like.
+Returns list of the predecessors of a node as DAGNodes.
+Returns set of the ancestors of a node as DAGNodes.
+Remove all of the ancestor operation nodes of node.
+Remove all of the descendant operation nodes of node.
+Remove all of the non - ancestors operation nodes of node.
+Remove all of the non - descendants operation nodes of node.
+Yield layers of the multigraph.
+Return a dictionary of circuit properties.
+Add state preparation gates to a circuit.
+Add state measurement gates to a circuit.
+Add state preparation gates to a circuit.
+Returns a projectors.
+Return a new circuit that has been optimized.
+Apply cu3 from ctl to tgt with angle theta phi lam.
+Returns a circuit putting 2 qubits in the Bell state.
+Return the primary drive channel of this qubit.
+Return the primary control channel of this qubit.
+Return the primary measure channel of this qubit.
+Return the primary acquire channel of this qubit.
+n - qubit input state for QFT that produces output 1.
+Remove the handlers for the qiskit logger.
+Set the input text data.
+Pop a PLY lexer off the stack.
+Push a PLY lexer on the stack to parse filename.
+Get conversion method for instruction.
+Verify a qubit id against the gate prototype.
+Verify each expression in a list.
+Verify a register.
+Verify a list of registers.
+Returns a generator of the tokens.
+Set the parse_deb field.
+Parse some data.
+Returns a generator of the tokens.
+Parse the data.
+Apply crz from ctl to tgt with angle theta.
+Return the corresponding OPENQASM string.
+Generates a jobs_pending progress bar widget.
+Return the shape for bipartite matrix
+Return the conjugate of the QuantumChannel.
+Return the transpose of the QuantumChannel.
+Load all default schemas into _SCHEMAS.
+Return the corresponding OPENQASM string.
+Return the corresponding OPENQASM string.
+Return a list of custom gate names in this gate body.
+Return the corresponding OPENQASM string.
+Return the conjugate of the QuantumChannel.
+Return the transpose of the QuantumChannel.
+Return the composition channel.
+Convert a QuantumCircuit or Instruction to a SuperOp.
+Return a circuit with a barrier before last measurements.
+Apply u2 to q.
+Calculate a subcircuit that implements this unitary.
+Set the absolute tolerence parameter for float comparisons.
+Set the relative tolerence parameter for float comparisons.
+Return tuple of input dimension for specified subsystems.
+Return tuple of output dimension for specified subsystems.
+Make a copy of current operator.
+Check if input dimension corresponds to qubit subsystems.
+Override _deserialize for customizing the exception raised.
+Override _serialize for customizing the exception raised.
+Special case. Return self.
+Return True if QuantumChannel is a unitary channel.
+Try to convert channel to a unitary representation Operator.
+Format input state so it is statevector or density matrix
+Convert input into a QuantumChannel subclass object or Operator object
+Attemps to parse time part of date strings like 1 day ago 2 PM
+Generate phantom tool run config
+get merged info about phantom conf
+helper for above functions
+Check whether pid exists in the current process table.
+Read stepper info from json
+Write stepper info to json
+stpd generation using Stepper class
+Create Load Plan as defined in schedule. Publish info about its duration.
+Return rps for second t
+Execute and check exit code
+publish value to status
+helper to aggregate codes by mask
+Say the workers to finish their jobs and quit.
+A feeder that runs in distinct thread in main process.
+A worker that does actual jobs
+A worker that does actual jobs
+override config options with user specified options
+Make preparations before running Tank
+Collect data cache it and send to listeners
+notify all listeners about aggregate data and stats
+clean markup from string
+Remove agent s files from remote host
+Remove agent s files from remote host
+Gracefull termination of running process
+Parse lines and return stats
+instantiate criterion from config string
+Prepare config data.
+raise exception on disk space exceeded
+raise exception on RAM exceeded
+Gets width and height of terminal viewport
+Gets next line for right panel
+Cut tuple of line chunks according to it s wisible lenght
+Add widget string to right panel of the screen
+Right - pad lines of block to equal width
+Calculate wisible length of string
+add right panel widget
+clean markup from string
+Send request to writer service.
+Tells core to take plugin options and instantiate plugin classes
+Retrieve a plugin of desired class KeyError raised otherwise
+Retrieve a list of plugins of desired class KeyError raised otherwise
+Move or copy single file to artifacts dir
+Add file to be stored as result artifact on post - process phase
+Read configs set into storage
+Flush current stat to file
+Get options list with requested prefix
+return sections with specified prefix
+Return all items found in this chunk
+Prepare for monitoring - install agents etc
+Poll agents for data
+sends pending data set to listeners
+Close any of open connections
+Request a new order
+Get an open position
+Get a list of assets
+Callback receives a stream of event_records
+Record a stream of event records to json
+Execute pipeline using message queue as a transport
+Waits until all there are no processes enqueued.
+Builds the execution plan.
+Get the shell commands we ll use to actually build and publish a package to PyPI.
+Automagically wrap a block of text.
+The following fields are shared between both QueryJobConfig and LoadJobConfig.
+The missing mkdir - p functionality in os.
+Whether the solid execution was successful
+Whether the solid execution was skipped
+Returns the failing step s data that happened during this solid s execution if any
+Datasets must be of form project. dataset or dataset
+Tables must be of form project. dataset. table or dataset. table
+Groups execution steps by solid in topological order of the solids.
+Returns an active connection cursor to the database.
+Closes the client connection to the database.
+Builds an instance of model from the model_dict.
+Returns the formfield for the array.
+Filter the queryset for the instance this manager is bound to.
+Compute the functions C1 and C2
+Reset the current HyperLogLog to empty.
+Index all the keys added so far and make them searchable.
+Cleanup client resources and disconnect from AsyncMinHashLSH storage.
+Parse scoped selector.
+Advances to next line.
+Reraises exception appending message to its string representation.
+Convert an operative config string to markdown format.
+Writes out Gin s operative config and maybe adds a summary of it.

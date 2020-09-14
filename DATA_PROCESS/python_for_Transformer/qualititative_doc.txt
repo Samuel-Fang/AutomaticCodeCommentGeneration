@@ -1,0 +1,10 @@
+Return bytes of camera image .
+Parse number format patterns
+construct connection function which handles tunnels .
+Signs the given string and also attaches a time information .
+Initialize a subcommand with argv .
+Create a python value from a BridgePoint constant .
+Download a pdf report for a case
+Backup the current execution state .
+Adds a new run to the _run_information dict .
+Remove all of the ancestor operation nodes of node .

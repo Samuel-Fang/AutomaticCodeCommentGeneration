@@ -1,0 +1,90 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 47, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "CSharpExtractor/extract.py", line 24, in ParallelExtractDir
+    ExtractFeaturesForDir(args, dir, "")
+  File "CSharpExtractor/extract.py", line 36, in ExtractFeaturesForDir
+    sleeper = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/subprocess.py", line 707, in __init__
+    restore_signals, start_new_session)
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/subprocess.py", line 1326, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'dotnet'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "CSharpExtractor/extract.py", line 92, in <module>
+    ExtractFeaturesForDirsList(args, to_extract)
+  File "CSharpExtractor/extract.py", line 66, in ExtractFeaturesForDirsList
+    p.starmap(ParallelExtractDir, zip(itertools.repeat(args), dirs))
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 268, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 608, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: 'dotnet'
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 47, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "CSharpExtractor/extract.py", line 24, in ParallelExtractDir
+    ExtractFeaturesForDir(args, dir, "")
+  File "CSharpExtractor/extract.py", line 36, in ExtractFeaturesForDir
+    sleeper = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/subprocess.py", line 707, in __init__
+    restore_signals, start_new_session)
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/subprocess.py", line 1326, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'dotnet'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "CSharpExtractor/extract.py", line 92, in <module>
+    ExtractFeaturesForDirsList(args, to_extract)
+  File "CSharpExtractor/extract.py", line 66, in ExtractFeaturesForDirsList
+    p.starmap(ParallelExtractDir, zip(itertools.repeat(args), dirs))
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 268, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 608, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: 'dotnet'
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 47, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "CSharpExtractor/extract.py", line 24, in ParallelExtractDir
+    ExtractFeaturesForDir(args, dir, "")
+  File "CSharpExtractor/extract.py", line 36, in ExtractFeaturesForDir
+    sleeper = subprocess.Popen(command, stderr=subprocess.PIPE)
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/subprocess.py", line 707, in __init__
+    restore_signals, start_new_session)
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/subprocess.py", line 1326, in _execute_child
+    raise child_exception_type(errno_num, err_msg)
+FileNotFoundError: [Errno 2] No such file or directory: 'dotnet'
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "CSharpExtractor/extract.py", line 92, in <module>
+    ExtractFeaturesForDirsList(args, to_extract)
+  File "CSharpExtractor/extract.py", line 66, in ExtractFeaturesForDirsList
+    p.starmap(ParallelExtractDir, zip(itertools.repeat(args), dirs))
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 268, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/apps/developers/compilers/python/3.6.0/2/default/lib/python3.6/multiprocessing/pool.py", line 608, in get
+    raise self._value
+FileNotFoundError: [Errno 2] No such file or directory: 'dotnet'

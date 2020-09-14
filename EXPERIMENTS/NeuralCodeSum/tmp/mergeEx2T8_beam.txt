@@ -1,0 +1,111 @@
+08/16/2020 10:39:09 PM: [ COMMAND: ../../main/test.py --data_workers 5 --dataset_name CSNpython --data_dir ../../data/ --model_dir ../../tmp --model_name mergeEx2T8 --dev_src test/code.original_subtoken --dev_tgt test/javadoc.original --uncase True --max_examples -1 --max_src_len 600 --max_tgt_len 50 --test_batch_size 64 --beam_size 4 --n_best 1 --block_ngram_repeat 3 --stepwise_penalty False --coverage_penalty none --length_penalty none --beta 0 --gamma 0 --replace_unk ]
+08/16/2020 10:39:09 PM: [ ---------------------------------------------------------------------------------------------------- ]
+08/16/2020 10:39:09 PM: [ Load and process data files ]
+08/16/2020 10:39:09 PM: [ Num dev examples = 6421 ]
+08/16/2020 10:39:09 PM: [ ---------------------------------------------------------------------------------------------------- ]
+08/16/2020 10:39:09 PM: [ Loading model ../../tmp/mergeEx2T8.mdl ]
+08/16/2020 10:39:13 PM: [ ---------------------------------------------------------------------------------------------------- ]
+08/16/2020 10:39:13 PM: [ Make data loaders ]
+08/16/2020 10:39:13 PM: [ ---------------------------------------------------------------------------------------------------- ]
+08/16/2020 10:39:13 PM: [ CONFIG:
+{
+    "attn_type": "general",
+    "beam_size": 4,
+    "beta": 0.0,
+    "bidirection": true,
+    "block_ngram_repeat": 3,
+    "char_emsize": 16,
+    "code_tag_type": "subtoken",
+    "conditional_decoding": false,
+    "copy_attn": false,
+    "coverage_attn": false,
+    "coverage_penalty": "none",
+    "cuda": true,
+    "d_ff": 2048,
+    "d_k": 64,
+    "d_v": 64,
+    "data_dir": "../../data/",
+    "data_workers": 5,
+    "dataset_name": [
+        "CSNpython"
+    ],
+    "dev_src": [
+        "test/code.original_subtoken"
+    ],
+    "dev_src_files": [
+        "../../data/CSNpython/test/code.original_subtoken"
+    ],
+    "dev_src_tag": null,
+    "dev_src_tag_files": [
+        null
+    ],
+    "dev_tgt": [
+        "test/javadoc.original"
+    ],
+    "dev_tgt_files": [
+        "../../data/CSNpython/test/javadoc.original"
+    ],
+    "dropout": 0.2,
+    "dropout_emb": 0.2,
+    "dropout_rnn": 0.2,
+    "early_stop": 5,
+    "emsize": 300,
+    "filter_size": 5,
+    "fix_embeddings": true,
+    "force_copy": false,
+    "gamma": 0.0,
+    "grad_clipping": 5.0,
+    "ignore_when_blocking": [],
+    "layer_wise_attn": false,
+    "learning_rate": 0.001,
+    "length_penalty": "none",
+    "log_file": "../../tmp/mergeEx2T8_beam.txt",
+    "lr_decay": 0.99,
+    "max_characters_per_token": 30,
+    "max_examples": -1,
+    "max_relative_pos": 0,
+    "max_src_len": 600,
+    "max_tgt_len": 50,
+    "model_dir": "../../tmp",
+    "model_file": "../../tmp/mergeEx2T8.mdl",
+    "model_name": "mergeEx2T8",
+    "model_type": "rnn",
+    "momentum": 0,
+    "n_best": 1,
+    "n_characters": 260,
+    "nfilters": 100,
+    "nhid": 200,
+    "nlayers": 2,
+    "num_head": 8,
+    "only_generate": false,
+    "optimizer": "adam",
+    "parallel": true,
+    "pred_file": "../../tmp/mergeEx2T8_beam.json",
+    "random_seed": 1013,
+    "reload_decoder_state": null,
+    "replace_unk": true,
+    "reuse_copy_attn": false,
+    "review_attn": false,
+    "rnn_type": "LSTM",
+    "share_decoder_embeddings": false,
+    "sort_by_len": true,
+    "split_decoder": false,
+    "src_pos_emb": true,
+    "stepwise_penalty": false,
+    "test_batch_size": 64,
+    "tgt_pos_emb": true,
+    "trans_drop": 0.2,
+    "uncase": true,
+    "use_all_enc_layers": false,
+    "use_code_type": false,
+    "use_neg_dist": true,
+    "use_src_char": false,
+    "use_src_word": true,
+    "use_tgt_char": false,
+    "use_tgt_word": true,
+    "verbose": false,
+    "warmup_epochs": 0,
+    "warmup_steps": 10000,
+    "weight_decay": 0
+} ]
+08/16/2020 10:55:06 PM: [ beam evaluation official: bleu = 16.65 | rouge_l = 24.35 | meteor = 9.24 | Precision = 29.18 | Recall = 25.25 | F1 = 25.95 | examples = 6400 | test time = 952.96 (s) ]
