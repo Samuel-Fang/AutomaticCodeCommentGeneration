@@ -22,12 +22,12 @@ wget https://leedsmscsamuelfang.s3.eu-west-2.amazonaws.com/checkpoint-34000.tar.
 tar -zxvf checkpoint-34000.tar.gz
 cd ../../..
 ```
-### generate comment for corresponding code on T5-small pre-trained model (Run the interactive demo)
+### Generate comment for corresponding code on T5-small pre-trained model with interactive demo
 ```
 python T5Generate.py
 ```
 
-### test the T5-small pre-trained model on test dataset (Run the test)
+### Test the T5-small pre-trained model on test dataset
 ```
 ./test.sh 0,1 CSNpython T5-small CSNpyEx2
 ```
