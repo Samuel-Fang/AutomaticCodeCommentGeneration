@@ -1,6 +1,6 @@
 # AutomaticCodeCommentGeneration
 Code for MSc Project of Yicheng Fang, University of Leeds.
-## How to generate comment for corresponding code on T5-small pre-trained model
+## Play with T5-small pre-trained model for automatic code comment generation
 This is the guide for a interactive demo of generating code comment on T5-small pre-trained model
 ### Requirements
 python 3.6 or above  
