@@ -6,7 +6,7 @@ This is the guide for a interactive demo of generating code comment on T5-small 
 python 3.6 or above  
 torch 1.4 or above  
 [transformers](https://github.com/huggingface/transformers)  
-ntlk  
+nltk  
 rouge   
   
 The demo and the test need to be run on GPU.
