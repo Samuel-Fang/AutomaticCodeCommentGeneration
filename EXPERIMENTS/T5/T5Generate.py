@@ -14,10 +14,12 @@ model.load_state_dict(torch.load(checkpoint_path))
 
 while True:
     input_code = input('Please enter the code snippet:\n')
+    if input_code=='exit': break
     input_ids = tokenizer.encode(input_code, return_tensors='pt').to(device)
 
     greedy_output = model.generate(input_ids)
-    print('Greedy Output:\n', tokenizer.decode(greedy_output[0]))
+    greedy_output_sentence = tokenizer.decode(greedy_output[0]).split('.')
+    print('Greedy Output:\n', greedy_output_sentence[0])
 
     beam_outputs = model.generate(
         input_ids, 
@@ -29,4 +31,5 @@ while True:
 
     print('Beam Search Output:\n')
     for i, beam_output in enumerate(beam_outputs):
-        print("{}: {}".format(i, tokenizer.decode(beam_output, skip_special_tokens=True)))
+        beam_output_sentence = tokenizer.decode(beam_output, skip_special_tokens=True).split('.')
+        print("{}: {}".format(i, beam_output_sentence[0]))
