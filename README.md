@@ -23,9 +23,15 @@ tar -zxvf checkpoint-34000.tar.gz
 cd ../../..
 ```
 ### Generate comment for corresponding code on T5-small pre-trained model with interactive demo
+Run the interactive demo:  
 ```
 python T5Generate.py
 ```
+Then the demo will notify you that ```Please enter the code snippet:```.  
+  
+You can now copy a line of code subtokens in the file ```qulititative_subtoken.txt```in the same directory and paste it in the demo. Then the demo will output the predicted code commnents with greedy output and beam search output.  
+  
+You can type ```exit``` after the notification to exit the demo.
 
 ### Test the T5-small pre-trained model on test dataset
 ```
